@@ -1,0 +1,11 @@
+command:
+python -m venv .venv (virtual enviroment creation)
+.venv/scripts/activate (activate virtual enviroment)
+install dependacies
+pip install streamlit transformers torch psycopg2 pandas plotly python-dotenv
+
+run the command 
+streamlit run visualation.py
+note:
+change your info for database connexion /and your database schema
+the code will run on http://localhost:8501/
