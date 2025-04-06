@@ -105,7 +105,7 @@ def get_db_connection():
             host="localhost",
             database="project_managment",
             user="postgres",
-            password="hosshoss",
+            password="",
             port="5432",
             connect_timeout=5
         )
